@@ -45,7 +45,7 @@ function RuntimeContextCard() {
     return (
         <Card title={title}>
             <p>If you wish to delete your account, you can do so directly in the app by navigating to your settings and selecting &quot;Delete Account&quot;.</p>
-            <p>If you need further assistance or encounter any issues, please feel free to send an email to <strong>support@yourapp.com</strong> with the subject &quot;Account Deletion Request&quot;.</p>
+            <p>If you need further assistance or encounter any issues, please feel free to send an email to <strong>havocaapp@gmail.com</strong> with the subject &quot;Account Deletion Request&quot;.</p>
             <p>Once we receive your request, we will begin the process of permanently erasing your data from our servers.</p>
             <p>We value your feedback, so please let us know if there&apos;s anything we could do to improve.</p>
         </Card>
