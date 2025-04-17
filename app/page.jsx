@@ -21,7 +21,7 @@ export default function Page() {
                 <ContextAlert className="mb-6" />
                 <h1 className="mb-4">Account Deletion</h1>
                 <p className="mb-6 text-lg">
-                    We're sorry to see you go. If you're sure about deleting your account, please follow the steps below.
+                    We&apos;re sorry to see you go. If you&apos;re sure about deleting your account, please follow the steps below.
                 </p>
                 <Link href="https://play.google.com/store/apps/details?id=com.havoca" className="btn btn-lg sm:min-w-64">
                     Go to Play Store
