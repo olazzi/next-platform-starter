@@ -6,6 +6,7 @@ import { Markdown } from 'components/markdown';
 const contextExplainer = `
 If you wish to permanently delete your account, please follow the steps below.
 This will erase all your data and remove your access to the platform.
+You can delete your account directly in the app or contact us by email for assistance.
 `;
 
 const postDeletionExplainer = `
@@ -44,11 +45,10 @@ function RuntimeContextCard() {
     const title = `Account Deletion: Proceed with caution.`;
     return (
         <Card title={title}>
-            <p>If you delete your account, all your data will be permanently erased from our servers.</p>
-            <p>Click the button below to proceed with account deletion.</p>
-            <button className="btn btn-lg bg-red-600 text-white">
-                Delete My Account
-            </button>
+            <p>If you wish to delete your account, you can do so directly in the app by navigating to your settings and selecting "Delete Account".</p>
+            <p>If you need further assistance or encounter any issues, please feel free to send an email to <strong>support@yourapp.com</strong> with the subject "Account Deletion Request".</p>
+            <p>Once we receive your request, we will begin the process of permanently erasing your data from our servers.</p>
+            <p>We value your feedback, so please let us know if there's anything we could do to improve.</p>
         </Card>
     );
 }
